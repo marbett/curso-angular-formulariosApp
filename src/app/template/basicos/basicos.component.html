@@ -7,16 +7,13 @@
         <form (ngSubmit)="guardar()"
               #miFormulario="ngForm"
               autocomplete="off">
-            
+
             <!-- Campo de producto -->
             <div class="mb-3 row">
 
 
                 <label class="col-sm-3 col-form-label">Producto</label>
-
-
                 <div class="col-sm-9">
-                    
                     <input type="text"
                            class="form-control"
                            [ngModel]="initForm.producto"
@@ -31,12 +28,6 @@
                     </span>
                 </div>
             </div>
-
-
-
-
-
-
 
             <!-- Campo de producto -->
             <div class="mb-3 row">
@@ -71,7 +62,6 @@
                 </div>
             </div>
 
-
             <div class="row">
                 <div class="col">
                     <button type="submit"
@@ -81,8 +71,6 @@
                     </button>
                 </div>
             </div>
-
-
 
         </form>
 
